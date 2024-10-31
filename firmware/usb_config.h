@@ -117,9 +117,9 @@ static const uint8_t config_descriptor[] = {
     1,          // Interval
 };
 
-#define STR_MANUFACTURER u"cnlohr"
-#define STR_PRODUCT      u"CDC Tester"
-#define STR_SERIAL       u"0000"
+#define STR_MANUFACTURER u"BI-ADB"
+#define STR_PRODUCT      u"CCCCPPPS"
+#define STR_SERIAL       u"0001"
 
 struct usb_string_descriptor_struct
 {
