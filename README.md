@@ -1,12 +1,15 @@
-# About
-> We have `programable power supply` at home.
+# Cheap Crappy Constant Current Portable Programmable Power Supply 
+## A Power Supply built with a CH32V003
 
-A DIY Programmable Buck/Boost Power Supply, capable of up to 5W
+A DIY Programmable Buck/Boost Power Supply, with the following specs:  
+* Max Output Voltage  15V
+* Max Output Current  1.5A
+* Max Output Power    5W
 
 # Usage
 ## Debug Interface:
-This interface is enabled by default when building the firmware. Use the `minichlink`
-interface to issue commands listed below
+This interface is enabled by default when building the firmware. Use `minichlink`
+to issue commands listed below
 
 ## USB Interface:
 Build with `-DCONFIG_USE_USB`
@@ -29,3 +32,8 @@ Build with `-DCONFIG_USE_USB`
 export CH32V003FUN="path/to/ch32v003fun"
 make
 ```
+
+----
+(c) 2024
+Bogdan Ionescu
+ADBeta
